@@ -7,7 +7,9 @@ Authors: *Dohyeon Lee, Sunyong Yoo*
 ## Description
 
 We present hERGAT, an interpretable deep learning model that utilizes graph attention to predict hERG blockers.
+
 In addition, we provide a Python file that can be used to generate predictions from the model we trained.
+
 If you want, you can train and predict new datasets from the structure of the model we proposed.
 
 - [Data](https://github.com/bmil-jnu/hERGAT/tree/main/Data/hERGAT%20dataset)
