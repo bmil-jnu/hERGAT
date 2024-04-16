@@ -1,8 +1,8 @@
 # hERGAT
+Title: **hERGAT: Predicting hERG blockers using graph attention mechanism through atom- and molecule-level interaction analysis**
+Authors: *Dohyeon Lee, Sunyong Yoo*
 
-Title - hERGAT: Predicting hERG blockers using graph attention mechanism through atom- and molecule-level interation analysis
 
-Authors : Dohyeon Lee, SunYong Yoo
 
 ## Description
 
