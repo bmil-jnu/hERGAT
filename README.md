@@ -12,7 +12,7 @@ In addition, we provide a Python file that can be used to generate predictions f
 
 If you want, you can train and predict new datasets from the structure of the model we proposed.
 
-- [Data](https://github.com/bmil-jnu/hERGAT/tree/main/Data/hERGAT%20dataset)
+- [Data](https://github.com/bmil-jnu/hERGAT/tree/main/Dataset)
 - [hERG source code](https://github.com/bmil-jnu/hERGAT/tree/main/Model/hERGAT)
 - [Atom- and molecule-level interaction analysis](https://github.com/bmil-jnu/hERGAT/tree/main/Results)
 - [Figure used in this paper](https://github.com/bmil-jnu/hERGAT/tree/main/Figure)
