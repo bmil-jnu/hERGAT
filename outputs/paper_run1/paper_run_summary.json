@@ -1,0 +1,9 @@
+{
+  "python_executable": "/data/home/bmi-lab/anaconda3/envs/hERGAT/bin/python",
+  "data_csv": "/data/home/ldhyun7222/hERGAT_final/data/hERGAT_final_dataset.csv",
+  "out_dir": "/data/home/ldhyun7222/hERGAT_final/outputs/paper_run1",
+  "checkpoint": "/data/home/ldhyun7222/hERGAT_final/outputs/paper_run1/ckpt/hERGAT_best.pt",
+  "metrics_json": "/data/home/ldhyun7222/hERGAT_final/outputs/paper_run1/metrics.json",
+  "split_indices_json": "/data/home/ldhyun7222/hERGAT_final/outputs/paper_run1/split_indices.json",
+  "topk_figures_summary_json": "/data/home/ldhyun7222/hERGAT_final/outputs/paper_run1/figures/topk_figures_summary.json"
+}

@@ -1,0 +1,614 @@
+{
+  "csv": "/data/home/ldhyun7222/hERGAT_final/data/hERGAT_final_dataset.csv",
+  "ckpt": "/data/home/ldhyun7222/hERGAT_final/outputs/paper_run1/ckpt/hERGAT_best.pt",
+  "smiles_col": "SMILES",
+  "label_col": "Class",
+  "top_k": 20,
+  "top_from": "test",
+  "n_rows_in_subset": 2339,
+  "n_predicted_valid": 2339,
+  "dropped_invalid_for_prediction": 0,
+  "topk_csv": "/data/home/ldhyun7222/hERGAT_final/outputs/paper_run1/figures/topk_predictions.csv",
+  "entries": [
+    {
+      "rank": 1,
+      "row_index": 9350,
+      "smiles": "O=C1COc2ccc(CNC34CCC(CCc5ccnc6cc(C(F)(F)F)cnc56)(CC3)OC4)nc2N1",
+      "prob_blocker": 1.0,
+      "prob_non_blocker": 1.226274992660592e-08,
+      "true_label": 1,
+      "canon_smiles": "O=C1COc2ccc(CNC34CCC(CCc5ccnc6cc(C(F)(F)F)cnc56)(CC3)OC4)nc2N1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top001_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top001_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top001_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top001_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top001_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top001_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top001_atom_agg.png"
+      }
+    },
+    {
+      "rank": 2,
+      "row_index": 5,
+      "smiles": "FC(F)(F)c1cnc2c(CCC34CCC(CC3)(CO4)NCc5ccc6OCC(=O)Nc6n5)ccnc2c1",
+      "prob_blocker": 1.0,
+      "prob_non_blocker": 1.226274992660592e-08,
+      "true_label": 1,
+      "canon_smiles": "O=C1COc2ccc(CNC34CCC(CCc5ccnc6cc(C(F)(F)F)cnc56)(CC3)OC4)nc2N1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top002_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top002_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top002_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top002_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top002_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top002_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top002_atom_agg.png"
+      }
+    },
+    {
+      "rank": 3,
+      "row_index": 22962,
+      "smiles": "COc1nc2ccc(Br)cc2cc1[C@@H](c1cc(C)c(C)s1)[C@@](O)(CCN(C)C)c1cccc(F)c1",
+      "prob_blocker": 0.9999998807907104,
+      "prob_non_blocker": 1.05540713946084e-07,
+      "true_label": 1,
+      "canon_smiles": "COc1nc2ccc(Br)cc2cc1[C@@H](c1cc(C)c(C)s1)[C@@](O)(CCN(C)C)c1cccc(F)c1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top003_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top003_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top003_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top003_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top003_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top003_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top003_atom_agg.png"
+      }
+    },
+    {
+      "rank": 4,
+      "row_index": 1965,
+      "smiles": "Cc1oc2cc(Cl)c3CCN(CCCSc4nnc(c5cccc6nc(C)ccc56)n4C)CCc3c2n1",
+      "prob_blocker": 0.9999998807907104,
+      "prob_non_blocker": 1.4582923313355423e-07,
+      "true_label": 1,
+      "canon_smiles": "Cc1ccc2c(-c3nnc(SCCCN4CCc5c(Cl)cc6oc(C)nc6c5CC4)n3C)cccc2n1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top004_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top004_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top004_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top004_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top004_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top004_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top004_atom_agg.png"
+      }
+    },
+    {
+      "rank": 5,
+      "row_index": 990,
+      "smiles": "Cc1ccc2c(cccc2n1)c3nnc(SCCCN4C[C@H]5C[C@]5(C4)c6ccc(Br)cc6)n3C",
+      "prob_blocker": 0.9999996423721313,
+      "prob_non_blocker": 3.576672611416143e-07,
+      "true_label": 1,
+      "canon_smiles": "Cc1ccc2c(-c3nnc(SCCCN4C[C@H]5C[C@@]5(c5ccc(Br)cc5)C4)n3C)cccc2n1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top005_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top005_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top005_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top005_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top005_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top005_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top005_atom_agg.png"
+      }
+    },
+    {
+      "rank": 6,
+      "row_index": 739,
+      "smiles": "CCc1nc2cc3CCN(CCCSc4nnc(c5cccc6nc(C)ccc56)n4C)CCc3cc2s1",
+      "prob_blocker": 0.9999996423721313,
+      "prob_non_blocker": 3.7401224517452647e-07,
+      "true_label": 1,
+      "canon_smiles": "CCc1nc2cc3c(cc2s1)CCN(CCCSc1nnc(-c2cccc4nc(C)ccc24)n1C)CC3",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top006_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top006_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top006_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top006_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top006_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top006_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top006_atom_agg.png"
+      }
+    },
+    {
+      "rank": 7,
+      "row_index": 15779,
+      "smiles": "O=C(NCc1cc(Cl)cc(Cl)c1)N(c1ccc(Br)cc1)C1CCN(C2CCCC2)CC1",
+      "prob_blocker": 0.9999995231628418,
+      "prob_non_blocker": 4.6547816623387916e-07,
+      "true_label": 1,
+      "canon_smiles": "O=C(NCc1cc(Cl)cc(Cl)c1)N(c1ccc(Br)cc1)C1CCN(C2CCCC2)CC1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top007_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top007_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top007_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top007_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top007_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top007_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top007_atom_agg.png"
+      }
+    },
+    {
+      "rank": 8,
+      "row_index": 2016,
+      "smiles": "CS(=O)(=O)Nc1ccc(OC[C@@H](O)CN(CCc2ccc(Cl)c(Cl)c2)Cc3ccc(F)c(F)c3F)cc1",
+      "prob_blocker": 0.9999995231628418,
+      "prob_non_blocker": 4.2428453639331565e-07,
+      "true_label": 1,
+      "canon_smiles": "CS(=O)(=O)Nc1ccc(OC[C@@H](O)CN(CCc2ccc(Cl)c(Cl)c2)Cc2ccc(F)c(F)c2F)cc1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top008_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top008_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top008_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top008_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top008_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top008_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top008_atom_agg.png"
+      }
+    },
+    {
+      "rank": 9,
+      "row_index": 314,
+      "smiles": "O=C(NC1CCc2ccc(CCN3CCN(CC3)c4nsc5ccccc45)cc12)c6occc6",
+      "prob_blocker": 0.9999995231628418,
+      "prob_non_blocker": 4.2619217310857493e-07,
+      "true_label": 1,
+      "canon_smiles": "O=C(NC1CCc2ccc(CCN3CCN(c4nsc5ccccc45)CC3)cc21)c1ccco1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top009_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top009_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top009_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top009_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top009_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top009_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top009_atom_agg.png"
+      }
+    },
+    {
+      "rank": 10,
+      "row_index": 1769,
+      "smiles": "COc1ccc2nccc(CCC34CCC(CC3)(CO4)NCc5ccc6OCC(=O)Nc6n5)c2n1",
+      "prob_blocker": 0.9999994039535522,
+      "prob_non_blocker": 5.807771117360971e-07,
+      "true_label": 1,
+      "canon_smiles": "COc1ccc2nccc(CCC34CCC(NCc5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top010_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top010_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top010_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top010_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top010_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top010_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top010_atom_agg.png"
+      }
+    },
+    {
+      "rank": 11,
+      "row_index": 11854,
+      "smiles": "Cl.FCCOc1ccccc1CCC1CCN(CCc2ccccc2)CC1",
+      "prob_blocker": 0.9999994039535522,
+      "prob_non_blocker": 5.920630883338163e-07,
+      "true_label": 1,
+      "canon_smiles": "Cl.FCCOc1ccccc1CCC1CCN(CCc2ccccc2)CC1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top011_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top011_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top011_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top011_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top011_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top011_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top011_atom_agg.png"
+      }
+    },
+    {
+      "rank": 12,
+      "row_index": 17455,
+      "smiles": "Cc1ccc2c(-c3nnc(SCCCN4CCc5ccc(-c6cc(C)nn6C)cc5CC4)n3C)cccc2n1",
+      "prob_blocker": 0.9999994039535522,
+      "prob_non_blocker": 5.910707727707631e-07,
+      "true_label": 1,
+      "canon_smiles": "Cc1ccc2c(-c3nnc(SCCCN4CCc5ccc(-c6cc(C)nn6C)cc5CC4)n3C)cccc2n1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top012_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top012_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top012_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top012_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top012_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top012_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top012_atom_agg.png"
+      }
+    },
+    {
+      "rank": 13,
+      "row_index": 26,
+      "smiles": "CCOc1cc(C)c2ncc(F)c(CCC34CCC(CC3)(CO4)NCc5ccc6OCC(=O)Nc6n5)c2n1",
+      "prob_blocker": 0.9999990463256836,
+      "prob_non_blocker": 9.404419643033179e-07,
+      "true_label": 1,
+      "canon_smiles": "CCOc1cc(C)c2ncc(F)c(CCC34CCC(NCc5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top013_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top013_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top013_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top013_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top013_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top013_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top013_atom_agg.png"
+      }
+    },
+    {
+      "rank": 14,
+      "row_index": 9768,
+      "smiles": "CN(CCOc1ccccc1)CCc1ccc(Cl)cc1",
+      "prob_blocker": 0.999998927116394,
+      "prob_non_blocker": 1.0988883332174737e-06,
+      "true_label": 1,
+      "canon_smiles": "CN(CCOc1ccccc1)CCc1ccc(Cl)cc1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top014_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top014_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top014_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top014_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top014_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top014_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top014_atom_agg.png"
+      }
+    },
+    {
+      "rank": 15,
+      "row_index": 16568,
+      "smiles": "CCCCN1CCC[C@H]1Cn1nc(Cc2ccc(Cl)cc2)c2ccccc2c1=O",
+      "prob_blocker": 0.9999988079071045,
+      "prob_non_blocker": 1.1774180848078686e-06,
+      "true_label": 1,
+      "canon_smiles": "CCCCN1CCC[C@H]1Cn1nc(Cc2ccc(Cl)cc2)c2ccccc2c1=O",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top015_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top015_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top015_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top015_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top015_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top015_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top015_atom_agg.png"
+      }
+    },
+    {
+      "rank": 16,
+      "row_index": 11738,
+      "smiles": "CCCC(=O)N[C@H]1CCc2ccc(CCN3CCN(c4nsc5ccccc45)CC3)cc21",
+      "prob_blocker": 0.9999988079071045,
+      "prob_non_blocker": 1.221612933477445e-06,
+      "true_label": 1,
+      "canon_smiles": "CCCC(=O)N[C@H]1CCc2ccc(CCN3CCN(c4nsc5ccccc45)CC3)cc21",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top016_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top016_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top016_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top016_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top016_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top016_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top016_atom_agg.png"
+      }
+    },
+    {
+      "rank": 17,
+      "row_index": 17718,
+      "smiles": "COc1nc(Nc2cccc3c2nc(-c2ccc(F)cc2)n3C)ccc1-n1cnc(C)c1",
+      "prob_blocker": 0.9999986886978149,
+      "prob_non_blocker": 1.2599197134477436e-06,
+      "true_label": 1,
+      "canon_smiles": "COc1nc(Nc2cccc3c2nc(-c2ccc(F)cc2)n3C)ccc1-n1cnc(C)c1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top017_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top017_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top017_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top017_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top017_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top017_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top017_atom_agg.png"
+      }
+    },
+    {
+      "rank": 18,
+      "row_index": 804,
+      "smiles": "O[C@@]1(CCNC[C@@H]1C(=O)N(Cc2cn(Cc3ccc(F)c(F)c3)c4cccc(F)c24)C5CC5)c6ccc(F)c(F)c6",
+      "prob_blocker": 0.9999986886978149,
+      "prob_non_blocker": 1.265985247300705e-06,
+      "true_label": 1,
+      "canon_smiles": "O=C([C@H]1CNCC[C@]1(O)c1ccc(F)c(F)c1)N(Cc1cn(Cc2ccc(F)c(F)c2)c2cccc(F)c12)C1CC1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top018_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top018_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top018_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top018_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top018_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top018_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top018_atom_agg.png"
+      }
+    },
+    {
+      "rank": 19,
+      "row_index": 270,
+      "smiles": "O=C1[C@H](CCN1Cc2ccccc2)N(CCCc3ccccc3)Cc4cncn4Cc5ccc(cc5)C#N",
+      "prob_blocker": 0.9999986886978149,
+      "prob_non_blocker": 1.2993239124625688e-06,
+      "true_label": 1,
+      "canon_smiles": "N#Cc1ccc(Cn2cncc2CN(CCCc2ccccc2)[C@H]2CCN(Cc3ccccc3)C2=O)cc1",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top019_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top019_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top019_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top019_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top019_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top019_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top019_atom_agg.png"
+      }
+    },
+    {
+      "rank": 20,
+      "row_index": 11737,
+      "smiles": "CCCC(=O)N[C@H]1CCc2cc(CCN3CCN(c4nsc5ccccc45)CC3)ccc21",
+      "prob_blocker": 0.9999986886978149,
+      "prob_non_blocker": 1.276990701626346e-06,
+      "true_label": 1,
+      "canon_smiles": "CCCC(=O)N[C@H]1CCc2cc(CCN3CCN(c4nsc5ccccc45)CC3)ccc21",
+      "pred_class": 1,
+      "molecule_level": {
+        "highlight_png": "outputs/paper_run1/figures/molecule_level/top020_mol.png",
+        "heatmap_png": "outputs/paper_run1/figures/molecule_level/top020_mol_heatmap.png",
+        "highlight_svg": ""
+      },
+      "atom_level": {
+        "per_layer": [
+          {
+            "layer": 1,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top020_atom_layer01.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top020_atom_layer01_heatmap.png"
+          },
+          {
+            "layer": 2,
+            "highlight_png": "outputs/paper_run1/figures/atom_level/top020_atom_layer02.png",
+            "heatmap_png": "outputs/paper_run1/figures/atom_level/top020_atom_layer02_heatmap.png"
+          }
+        ],
+        "aggregate_png": "outputs/paper_run1/figures/atom_level/top020_atom_agg.png"
+      }
+    }
+  ]
+}

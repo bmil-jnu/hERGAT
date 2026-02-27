@@ -1,0 +1,24 @@
+{
+  "dropped_invalid_smiles": 0,
+  "n_train": 18704,
+  "n_val": 2338,
+  "n_test": 2339,
+  "best_val_aupr": 0.9666141556158677,
+  "test_loss": 0.4686733136406621,
+  "test_auroc": 0.949463798756013,
+  "test_aupr": 0.9577046256270689,
+  "hparams": {
+    "radius": 2,
+    "T": 2,
+    "input_feature_dim": 39,
+    "input_bond_dim": 10,
+    "fingerprint_dim": 1024,
+    "output_units_num": 2,
+    "p_dropout": 0.2,
+    "physicochemical_feature_dim": 1029,
+    "physicochemical_feature_dim_1": 512,
+    "physicochemical_feature_dim_2": 1024,
+    "final1_fc1": 256,
+    "final1_fc2": 64
+  }
+}
